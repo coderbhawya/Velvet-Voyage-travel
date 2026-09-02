@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Airplane logo">
+  <rect width="64" height="64" rx="32" fill="#7eaedb"/>
+  <path fill="none" stroke="#3d6ea9" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="8 6" d="M8 46C15 42 22 39 30 35" />
+  <path fill="#f7fbff" d="M9 36L47 18L39 31L52 40L43 43L31 38L22 52L16 47L25 39L9 36Z" />
+  <path fill="#5e8ec7" d="M19 31L31 26L43 20L35 38L19 31Z" />
+  <path fill="rgba(255, 255, 255, 0.8)" d="M27 33L35 30L41 23L35 37L27 33Z" />
+</svg>
