@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | Velvet Voyage</title>
+    <meta
+      name="description"
+      content="Contact Velvet Voyage to plan your next dream getaway and receive personalized travel support."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="brand">
+          <span class="brand-mark airplane-mark" aria-hidden="true">
+            <svg viewBox="0 0 64 64" role="img" aria-label="Airplane logo">
+              <path class="plane-trail" d="M8 46C15 42 22 39 30 35" />
+              <path class="plane-body" d="M9 36L47 18L39 31L52 40L43 43L31 38L22 52L16 47L25 39L9 36Z" />
+              <path class="plane-wing" d="M19 31L31 26L43 20L35 38L19 31Z" />
+              <path class="plane-highlight" d="M27 33L35 30L41 23L35 37L27 33Z" />
+            </svg>
+          </span>
+          <span>Velvet Voyage</span>
+        </a>
+
+        <div class="nav-wrapper">
+          <nav class="nav-links" aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="packages.html">Packages</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html" class="active">Contact</a>
+          </nav>
+  
+          <a href="contact.html" class="button button-primary">Plan My Trip</a>
+        </div>
+        
+        <button class="menu-toggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-header">
+        <div class="container header-center">
+          <span class="kicker">Let’s connect</span>
+          <h1>Tell us where you want to go next.</h1>
+          <p>
+            Share your ideas and dream dates, and we’ll help shape a travel experience that feels effortless from start to finish.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container contact-grid">
+          <div class="info-stack">
+            <div class="info-card">
+              <div class="icon-box">✆</div>
+              <h3>Call us</h3>
+              <p>+91 9311515712</p>
+            </div>
+
+            <div class="info-card">
+              <div class="icon-box">✉</div>
+              <h3>Email</h3>
+              <p>officialbhawyagugdodia@gmail.com</p>
+            </div>
+
+            <div class="info-card">
+              <div class="icon-box">⌂</div>
+              <h3>Visit</h3>
+              <p>18 Rosewood Lane, San Francisco, CA</p>
+            </div>
+          </div>
+
+          <div class="form-card">
+            <form id="inquiry-form" action="/contact" method="POST" accept-charset="UTF-8">
+              <div class="form-grid">
+                <div class="form-group">
+                  <label for="name">Full name</label>
+                  <input id="name" name="name" type="text" placeholder="Your name" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input id="email" name="email" type="email" placeholder="Your email" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="destination">Dream destination</label>
+                  <select id="destination" name="destination">
+                    <option>Italy</option>
+                    <option>Japan</option>
+                    <option>Bali</option>
+                    <option>Iceland</option>
+                    <option>Morocco</option>
+                    <option>Switzerland</option>
+                    <option>Thailand</option>
+                    <option>Greece</option>
+                    <option>Mexico</option>
+                    <option>France</option>
+                    <option>Not sure yet</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="travel-date">Travel date</label>
+                  <input id="travel-date" name="travel_date" type="date" />
+                </div>
+
+                <div class="form-group full">
+                  <label for="message">Tell us about your trip</label>
+                  <textarea id="message" name="message" placeholder="Share your travel style, preferred pace, and what kind of experience you want." required></textarea>
+                </div>
+              </div>
+
+              <div class="form-actions">
+                <button type="submit" class="button button-primary">Send inquiry</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="brand">
+          <span class="brand-mark">V</span>
+          <span>Velvet Voyage</span>
+        </div>
+
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="packages.html">Packages</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+
+        <div class="copyright">© 2026 BHAWYA GUGDODIA. All rights reserved.</div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="animations.js"></script>
+  </body>
+</html>
